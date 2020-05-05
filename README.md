@@ -31,7 +31,7 @@ A deck is created with `Appian::Deck.new`. `Appian::Deck.new` takes an optional 
 #### Appian::Deck::Card class
 `Appian::Deck` is implemented as an array of `Appian::Deck::Card`s. `Appian::Deck::Card` instances are comparable (==, <, etc). Currently, `Appian::Deck::Card` only has the following public methods and accessors:
 
-`#val` returns the value of the card as an integer. Jack is 11, queen is 12, and king is 13. For an ace-high deck an ace is 14 otherwise an ace is 1
+`#rank` returns the rank of the card as an integer. Jack is 11, queen is 12, and king is 13. For an ace-high deck an ace is 14 otherwise an ace is 1
 
 `#suit` returns the suit of the card. One of "spade", "heart", "diamond", "club"
 
